@@ -61,6 +61,12 @@ services:
   packages:
   - name: WmEDI
     version: 9.12.0.0.315
+- serviceName: project.edicheck.integrations:dafedi
+  packages:
+  - name: EdiCheckProject
+    version: "1.0"
+  - name: WmB2BDocuments
+    version: "1.0"
 - serviceName: project.edicheck.integrations:ertedi
   packages:
   - name: EdiCheckProject
