@@ -7,3 +7,56 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+services:
+- serviceName: project.edicheck.integrations:B2BApp_2
+  packages:
+  - name: EdiCheckProject
+    version: "1.0"
+- serviceName: fld_common.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.operations.actions:updateTransactionUserStatus
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: com.webmethods.cloudstreams.b2b.rest_v1.wmb2brestproviderservice.services.utils:validateRequiredField
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: com.webmethods.cloudstreams.b2b.rest_v1.operations.actions:updateTransactionUserStatus
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: com.webmethods.cloudstreams.b2b.rest_v1.wmb2brestproviderservice.services.utils:handleServiceException
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: com.webmethods.cloudstreams.b2b.rest_v1.wmb2brestproviderservice.services.utils:handleOperationErrors
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: fld_common.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.operations.actions:searchTransactions
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: com.webmethods.cloudstreams.b2b.rest_v1.operations.actions:searchTransactions
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: fld_common.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.operations.actions:addTransactionLog
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: com.webmethods.cloudstreams.b2b.rest_v1.operations.actions:addTransactionLog
+  packages:
+  - name: WmB2BRESTProvider
+    version: 12.0.0.0.132
+- serviceName: wm.b2b.edi:convertToValues
+  packages:
+  - name: WmEDI
+    version: 9.12.0.0.315
+- serviceName: wm.b2b.edi:convertToString
+  packages:
+  - name: WmEDI
+    version: 9.12.0.0.315
+- serviceName: project.edicheck.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: EdiCheckProject
+    version: "1.0"
