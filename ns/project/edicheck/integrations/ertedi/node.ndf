@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Munatri.Baruah@ibm.com</value>
-    <value name="createdDate">2026-11-06T09:40:30.539863405Z</value>
-    <value name="lastModifiedDate">2026-11-06T09:40:30.539863405Z</value>
+    <value name="lastModifiedBy">Munatri.Baruah@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-06T09:46:08.249119135Z</value>
     <value name="displayName">ertedi</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -62,12 +61,12 @@
         <value name="itemType">APPS</value>
         <record name="operation" javaclass="com.wm.util.Values">
           <value name="connectorID">com.webmethods.edi_v3</value>
-          <value name="description">Converts an EDI Message to a document by using the specified EDI Document</value>
+          <value name="description">Converts a document into a EDI Message by using the specified EDI Document</value>
           <value name="isCustom">false</value>
           <value name="isDynamicOperation">false</value>
           <value name="isImportedOperation">false</value>
-          <value name="nsName">wm.b2b.edi:convertToValues</value>
-          <value name="operationName">convertToValues</value>
+          <value name="nsName">wm.b2b.edi:convertToString</value>
+          <value name="operationName">convertToString</value>
           <value name="operationType">actions</value>
           <null name="packageName"/>
           <value name="projectName">project.edicheck</value>
@@ -105,13 +104,25 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        <array name="mapSet" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="field">/ffSchema;1;0</value>
+            <value name="value">project.wmb2bdocuments.edi.schemas:UNEDIFACT_96A_ORDERS</value>
+            <Boolean name="variableSubstitution">false</Boolean>
+            <Boolean name="overwrite">true</Boolean>
+            <Boolean name="globalVariables">false</Boolean>
+          </record>
         </array>
         <record name="documentType" javaclass="com.wm.util.Values">
           <value name="documentName"></value>
           <value name="documentSchemaName"></value>
           <value name="isDocumentName"></value>
         </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="outputMapSet"/>
       </record>
     </record>
     <value name="modifiedBy">Munatri.Baruah@ibm.com</value>
