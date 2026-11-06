@@ -7,10 +7,14 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+- name: WmB2BDocuments
+  gitBranch: master
 services:
 - serviceName: project.edicheck.integrations:B2BApp_2
   packages:
   - name: EdiCheckProject
+    version: "1.0"
+  - name: WmB2BDocuments
     version: "1.0"
 - serviceName: fld_common.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.operations.actions:updateTransactionUserStatus
   packages:
@@ -59,4 +63,6 @@ services:
 - serviceName: project.edicheck.streaming.connections:EmbeddedMessaging
   packages:
   - name: EdiCheckProject
+    version: "1.0"
+  - name: WmB2BDocuments
     version: "1.0"
