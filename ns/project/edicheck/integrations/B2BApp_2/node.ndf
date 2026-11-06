@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">flow</value>
+  <value name="svc_subtype">unknown</value>
+  <value name="svc_sigtype">unknown</value>
+  <record name="svc_sig" javaclass="com.wm.util.Values">
+    <record name="sig_in" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">metadata</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">sender</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">receiver</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">documentType</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">documentId</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">userStatus</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">groupId</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">conversationID</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">attributes</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="is_public">false</value>
+                  <value name="field_name">e2e:ot-tracer-traceid</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="is_public">false</value>
+                  <value name="field_name">$duplicate</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">request</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">content</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">type</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">encoding</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">contentPartNames</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">attachments</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">headers</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">largeDoc</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+    <record name="sig_out" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+  </record>
+  <value name="description"></value>
+  <value name="stateless">yes</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy">$null</value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="lastModifiedBy">Marthala.Shanthi@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-06T04:53:10.632037563Z</value>
+    <value name="displayName">B2BApp_2</value>
+    <value name="description"></value>
+    <array name="appList" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="providerName">WmB2BRESTProvider</value>
+        <value name="id">com.webmethods.cloudstreams.b2b.rest_v1</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="providerName">B2BConnector</value>
+        <value name="id">com.webmethods.edi_v3</value>
+      </record>
+    </array>
+    <record name="stepNodeHints" javaclass="com.wm.util.Values">
+      <record name="/0" javaclass="com.wm.util.Values">
+        <value name="name">webMethods B2B</value>
+        <value name="itemType">APPS</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="connectorID">com.webmethods.cloudstreams.b2b.rest_v1</value>
+          <value name="isCustom">false</value>
+          <value name="isDynamicOperation">false</value>
+          <value name="isImportedOperation">true</value>
+          <value name="nsName">fld_common.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.operations.actions:updateTransactionUserStatus</value>
+          <value name="operationName">updateTransactionUserStatus</value>
+          <value name="operationType">actions</value>
+          <value name="packageName">WmB2BRESTProvider</value>
+          <value name="projectName">project.sha_daf</value>
+        </record>
+        <value name="id">com.webmethods.cloudstreams.b2b.rest_v1</value>
+        <value name="providerName">WmB2BRESTProvider</value>
+        <value name="allowCustomOperations">false</value>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">B2BAccount</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.edicheck.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.connections:B2BAccount</value>
+        <value name="connectionType">sagcloud</value>
+        <value name="type">REST</value>
+        <value name="version">1</value>
+        <value name="packageName">WmB2BRESTProvider</value>
+        <value name="description">Connect to IBM webMethods B2B to leverage B2B capabilities and build B2B integrations.</value>
+        <null name="extensionName"/>
+        <value name="certified">true</value>
+        <value name="registry">supported</value>
+        <value name="category">connector</value>
+        <value name="registeredDate">08/09/2026</value>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">false</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <Boolean name="listenerEnabled">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <null name="mapSet"/>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">webMethods B2B</value>
+        <value name="itemType">APPS</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="connectorID">com.webmethods.cloudstreams.b2b.rest_v1</value>
+          <value name="isCustom">false</value>
+          <value name="isDynamicOperation">false</value>
+          <value name="isImportedOperation">true</value>
+          <value name="nsName">fld_common.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.operations.actions:searchTransactions</value>
+          <value name="operationName">searchTransactions</value>
+          <value name="operationType">actions</value>
+          <value name="packageName">WmB2BRESTProvider</value>
+          <value name="projectName">project.sha_daf</value>
+        </record>
+        <value name="id">com.webmethods.cloudstreams.b2b.rest_v1</value>
+        <value name="providerName">WmB2BRESTProvider</value>
+        <value name="allowCustomOperations">false</value>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">B2BAccount</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.edicheck.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.connections:B2BAccount</value>
+        <value name="connectionType">sagcloud</value>
+        <value name="type">REST</value>
+        <value name="version">1</value>
+        <value name="packageName">WmB2BRESTProvider</value>
+        <value name="description">Connect to IBM webMethods B2B to leverage B2B capabilities and build B2B integrations.</value>
+        <null name="extensionName"/>
+        <value name="certified">true</value>
+        <value name="registry">supported</value>
+        <value name="category">connector</value>
+        <value name="registeredDate">08/09/2026</value>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">false</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <Boolean name="listenerEnabled">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <null name="mapSet"/>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
+        <value name="nodePathForDebug">1</value>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="name">webMethods B2B</value>
+        <value name="itemType">APPS</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="connectorID">com.webmethods.cloudstreams.b2b.rest_v1</value>
+          <value name="isCustom">false</value>
+          <value name="isDynamicOperation">false</value>
+          <value name="isImportedOperation">true</value>
+          <value name="nsName">fld_common.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.operations.actions:addTransactionLog</value>
+          <value name="operationName">addTransactionLog</value>
+          <value name="operationType">actions</value>
+          <value name="packageName">WmB2BRESTProvider</value>
+          <value name="projectName">project.sha_daf</value>
+        </record>
+        <value name="id">com.webmethods.cloudstreams.b2b.rest_v1</value>
+        <value name="providerName">WmB2BRESTProvider</value>
+        <value name="allowCustomOperations">false</value>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">B2BAccount</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.edicheck.WmB2BRESTProvider.com_webmethods_cloudstreams_b2b_rest_v1.connections:B2BAccount</value>
+        <value name="connectionType">sagcloud</value>
+        <value name="type">REST</value>
+        <value name="version">1</value>
+        <value name="packageName">WmB2BRESTProvider</value>
+        <value name="description">Connect to IBM webMethods B2B to leverage B2B capabilities and build B2B integrations.</value>
+        <null name="extensionName"/>
+        <value name="certified">true</value>
+        <value name="registry">supported</value>
+        <value name="category">connector</value>
+        <value name="registeredDate">08/09/2026</value>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">false</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <Boolean name="listenerEnabled">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <null name="mapSet"/>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
+        <value name="nodePathForDebug">2</value>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">4</number>
+        <value name="nodePathNew">3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <null name="/3/0"/>
+      <record name="/4" javaclass="com.wm.util.Values">
+        <value name="name">Electronic Data Interchange (EDI)</value>
+        <value name="itemType">APPS</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="connectorID">com.webmethods.edi_v3</value>
+          <value name="description">Converts an EDI Message to a document by using the specified EDI Document</value>
+          <value name="isCustom">false</value>
+          <value name="isDynamicOperation">false</value>
+          <value name="isImportedOperation">false</value>
+          <value name="nsName">wm.b2b.edi:convertToValues</value>
+          <value name="operationName">convertToValues</value>
+          <value name="operationType">actions</value>
+          <null name="packageName"/>
+          <value name="projectName">project.edicheck</value>
+        </record>
+        <value name="id">com.webmethods.edi_v3</value>
+        <value name="providerName">B2BConnector</value>
+        <value name="allowCustomOperations">false</value>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">false</Boolean>
+        <value name="type">EDI</value>
+        <value name="version">3.0</value>
+        <value name="packageName">WmEDI</value>
+        <value name="description">Enables parsing, validating, and processing of EDI documents for business integration.</value>
+        <null name="extensionName"/>
+        <null name="certified"/>
+        <value name="registry">supported</value>
+        <value name="category">miscellaneous</value>
+        <value name="registeredDate">03/03/2026</value>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">false</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <Boolean name="listenerEnabled">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="field">/EDIFFSchema;1;0</value>
+            <value name="value">project.wmb2bdocuments.edi.schemas:X12_4010_850</value>
+            <Boolean name="variableSubstitution">false</Boolean>
+            <Boolean name="overwrite">true</Boolean>
+            <Boolean name="globalVariables">false</Boolean>
+          </record>
+        </array>
+        <record name="documentType" javaclass="com.wm.util.Values">
+          <value name="documentName"></value>
+          <value name="documentSchemaName"></value>
+          <value name="isDocumentName"></value>
+        </record>
+        <number name="ui_step_index" type="Long">5</number>
+        <value name="nodePathNew">4</value>
+        <number name="nodeIndex" type="Long">4</number>
+        <number name="lineNumberForDebug" type="Long">5</number>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">3</value>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/5" javaclass="com.wm.util.Values">
+        <value name="name">Electronic Data Interchange (EDI)</value>
+        <value name="itemType">APPS</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="connectorID">com.webmethods.edi_v3</value>
+          <value name="description">Converts a document into a EDI Message by using the specified EDI Document</value>
+          <value name="isCustom">false</value>
+          <value name="isDynamicOperation">false</value>
+          <value name="isImportedOperation">false</value>
+          <value name="nsName">wm.b2b.edi:convertToString</value>
+          <value name="operationName">convertToString</value>
+          <value name="operationType">actions</value>
+          <null name="packageName"/>
+          <value name="projectName">project.edicheck</value>
+        </record>
+        <value name="id">com.webmethods.edi_v3</value>
+        <value name="providerName">B2BConnector</value>
+        <value name="allowCustomOperations">false</value>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">false</Boolean>
+        <value name="type">EDI</value>
+        <value name="version">3.0</value>
+        <value name="packageName">WmEDI</value>
+        <value name="description">Enables parsing, validating, and processing of EDI documents for business integration.</value>
+        <null name="extensionName"/>
+        <null name="certified"/>
+        <value name="registry">supported</value>
+        <value name="category">miscellaneous</value>
+        <value name="registeredDate">03/03/2026</value>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">false</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <Boolean name="listenerEnabled">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="field">/ffSchema;1;0</value>
+            <value name="value">project.wmb2bdocuments.edi.schemas:X12_4010_850</value>
+            <Boolean name="variableSubstitution">false</Boolean>
+            <Boolean name="overwrite">true</Boolean>
+            <Boolean name="globalVariables">false</Boolean>
+          </record>
+        </array>
+        <record name="documentType" javaclass="com.wm.util.Values">
+          <value name="documentName"></value>
+          <value name="documentSchemaName"></value>
+          <value name="isDocumentName"></value>
+        </record>
+        <number name="ui_step_index" type="Long">6</number>
+        <value name="nodePathNew">5</value>
+        <number name="nodeIndex" type="Long">5</number>
+        <number name="lineNumberForDebug" type="Long">6</number>
+        <null name="outputMapSet"/>
+      </record>
+    </record>
+    <value name="modifiedBy">Munatri.Baruah@ibm.com</value>
+    <value name="createdBy">Munatri.Baruah@ibm.com</value>
+    <value name="createdDate">1793940790631</value>
+    <record name="edgeServer" javaclass="com.wm.util.Values">
+      <value name="group">Default</value>
+      <value name="id">default</value>
+      <value name="name">Cloud Execution</value>
+    </record>
+  </record>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">2</value>
+  <null name="auditfields_input"/>
+  <null name="auditfields_output"/>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+  <array name="allowedHTTPMethods" type="value" depth="1">
+    <value>TRACE</value>
+    <value>HEAD</value>
+    <value>DELETE</value>
+    <value>POST</value>
+    <value>GET</value>
+    <value>OPTIONS</value>
+    <value>PUT</value>
+    <value>PATCH</value>
+  </array>
+  <value name="pipeline_option">0</value>
+  <null name="originURI"/>
+  <value name="modifiable">true</value>
+  <value name="is_public">false</value>
+  <value name="is_visible">true</value>
+</Values>
