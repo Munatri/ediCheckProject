@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">streamingAccount</value>
+  <value name="node_nsName">project.edicheck.streaming.connections:EmbeddedMessaging</value>
+  <value name="node_pkg">EdiCheckProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">EdiCheckProject.project.edicheck.streaming.connections:EmbeddedMessaging</value>
+  <value name="connectionName">EmbeddedMessaging</value>
+  <value name="description">This is the default embedded messaging account</value>
+  <value name="providerURI">nhp://stage00-prod979566-um-0.int-prod979566.svc.cluster.local:9000/</value>
+  <value name="clientId">EM2f41f56fbb924fb1aff1524065507275</value>
+  <value name="securityProtocol"></value>
+  <value name="keystoreAlias"></value>
+  <value name="keystoreKeyAlias"></value>
+  <value name="truststoreAlias"></value>
+  <value name="additionalProperties"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Munatri.Baruah@ibm.com</value>
+    <value name="modifiedBy">Munatri.Baruah@ibm.com</value>
+    <value name="createdDate">2026-11-06T04:52:59.625810978Z</value>
+    <value name="lastModifiedDate">2026-11-06T04:52:59.625810978Z</value>
+  </record>
+</Values>
