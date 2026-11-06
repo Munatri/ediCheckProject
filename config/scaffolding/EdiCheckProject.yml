@@ -67,6 +67,16 @@ services:
     version: "1.0"
   - name: WmB2BDocuments
     version: "1.0"
+- serviceName: project.edicheck.integrations:doc
+  packages:
+  - name: EdiCheckProject
+    version: "1.0"
+  - name: WmB2BDocuments
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1227
 - serviceName: project.edicheck.integrations:ertedi
   packages:
   - name: EdiCheckProject
